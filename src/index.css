@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coffee-forest: #203B2D;
+  --color-coffee-pine: #344536;
+  --color-coffee-sage: #4E6050;
+  --color-coffee-gold: #B69A60;
+  --color-coffee-warm: #F5F1E8;
+  --color-coffee-cream: #EAE4D8;
+  --color-coffee-charcoal: #262923;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', 'Newsreader', Georgia, 'Times New Roman', serif;
+}
+
+body {
+  background-color: #f1f5f9;
+  color: #262923;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Thermal Receipt Print Styles */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #printable-receipt,
+  #printable-receipt * {
+    visibility: visible !important;
+  }
+  #printable-receipt {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 0 !important;
+    width: 78mm !important;
+    max-width: 78mm !important;
+    margin: 0 auto !important;
+    padding: 4mm !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" fill="none">
+  <rect x="2" y="2" width="296" height="56" rx="4" fill="#ffffff" stroke="#1F2E23" stroke-width="3.5"/>
+  <rect x="2" y="2" width="162" height="56" rx="3" fill="#203B2D"/>
+  <text x="83" y="39" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">SAKUPOS</text>
+  <text x="231" y="39" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="22" fill="#1F2E23" text-anchor="middle" letter-spacing="1.5">COFFEE</text>
+</svg>
